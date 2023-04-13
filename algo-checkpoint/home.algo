@@ -1,0 +1,38 @@
+ALGORITHM Add_distinct
+VAR
+   set1,set2: ARRAY[20];
+   i,j,k,:STRING;
+   n: Length(set1)
+   k:Length(set2);
+   sum = 0;
+BEGIN
+ write("Write your first set length");
+ read(n)
+
+ write("Write your second set length");
+ read(k)
+
+ REPEAT
+    FOR i FROM 0 TO n-1 STEP 1 DO 
+    WRITE ("write your first set of elements")
+    READ(set1[i]);
+ END_FOR
+
+FOR j FROM 0 TO j-1 STEP 1 DO
+  WRITE ("write your second set of elements")
+  READ (set2[j]);
+  END_FOR
+
+  UNTIL (set1 <> [""] AND set2 <> [""]);
+
+  FOR i FROM 0 TO (n-1) STEP 1 DO 
+   FOR j FROM 0nTO (k-1) STEP 1 DO
+   IF set2 [i] DISTINCT (set1[j]) THEN
+   sum2:=sum + set2[i];
+   sum:= sum2
+   END_IF
+   END_FOR
+   END_FOR
+
+   WRITE ("The sum of the distinct numbersis = sum")
+   END

@@ -1,0 +1,25 @@
+ALGORITHM Dot_Product
+VAR
+    v1,v2; STRING
+    i,j,k,:STRING
+BEGIN
+    Write("give the first string");
+    read(v1);
+    Write("give the first string");
+    read(v2);
+
+    REPEAT
+    FOR i FROM 0 TO v1-1 STEP 1 DO
+    WRITE ("write your first set of elements")
+    READ(V1[i]);
+    END_FOR
+
+    FOR j FROM 0 TO j-1 STEP 1 DO
+  WRITE ("write your second set of elements")
+  READ (v2[j]);
+  END_FOR
+
+  UNTIL (v1 <> [""] AND v2 <> [""]);
+  FOR i FROM 0 TO (n-1) STEP 1 DO 
+   FOR j FROM 0 TO (k-1) STEP 1 DO
+END
